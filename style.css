@@ -1,4 +1,13 @@
-//style and such
+
 body {
-  background-color: #fff;
+  margin: 150;
+  border: 10;
+
+  background-color: #DDDDDD;
+  border-color: #FFF;
+
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+
 }
