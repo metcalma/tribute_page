@@ -11,3 +11,17 @@ body {
   font-family: 'Inconsolata', monospace;
 
 }
+
+main {
+  background-color: white;
+  width: 80%;
+  min-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+image {
+  padding: 3px 3px 9px 3px;
+  margin: auto;
+}
