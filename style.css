@@ -1,17 +1,21 @@
-
+*, *::after {
+  box-sizing: border-box;
+}
 body {
   margin: 150;
   border: 10;
-
   background-color: #DDDDDD;
   border-color: #FFF;
-
   text-align: center;
   font-size: 30px;
   font-family: 'Inconsolata', monospace;
-
 }
-
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
 main {
   background-color: white;
   width: 80%;
@@ -20,8 +24,44 @@ main {
   padding: 20px;
   border-radius: 10px;
 }
+img {
+  width: 100%;
+}
+.img-border {
+  border: 5px solid #AAA;
+}
+.img-border2 {
+  border: 5px solid #333;
+}
 
-image {
-  padding: 3px 3px 9px 3px;
-  margin: auto;
+
+.desc {
+  display: inline-block;
+}
+
+.text {
+  float: left;
+  width: 50%;
+}
+.image {
+  float: left;
+  width: 50%;
+}
+
+.imgrow {
+  display: inline-block;
+}
+
+.img1 {
+  float: left;
+  width: 33%;
+}
+
+.img2 {
+  float: left;
+  width: 33%;
+}
+.img3 {
+  float: left;
+  width: 33%;
 }
