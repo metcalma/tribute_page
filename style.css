@@ -65,3 +65,10 @@ img {
   float: left;
   width: 33%;
 }
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
