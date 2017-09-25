@@ -7,13 +7,14 @@ body {
   background-color: #DDDDDD;
   border-color: #FFF;
   text-align: center;
-  font-size: 30px;
   font-family: 'Inconsolata', monospace;
 }
 nav ul {
   list-style: none;
 }
 nav li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
   display: inline-block;
 }
 main {
@@ -40,6 +41,7 @@ img {
 }
 
 .text {
+  font-size: 15;
   float: left;
   width: 50%;
 }
@@ -64,11 +66,4 @@ img {
 .img3 {
   float: left;
   width: 33%;
-}
-
-nav ul {
-  list-style: none;
-}
-nav li {
-  display: inline-block;
 }
